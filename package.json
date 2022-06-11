@@ -1,0 +1,17 @@
+{
+  "name": "books_docs",
+  "version": "0.1.0",
+  "description": "Frappe Books documentation.",
+  "main": "index.js",
+  "author": "18alantom <2.alan.tom@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.1"
+  }
+}
