@@ -1,17 +1,13 @@
 ---
 layout: home
-
 title: Frappe Books
-titleTemplate: Free, Modern Desktop Accounting
-
 hero:
   name: Frappe Books
-  text: Free, Modern Desktop Accounting
-  tagline: Simple, well designed, desktop accounting software for freelancers and small businesses. Free and Open Source.
+  text: Documentation And User Guide
   actions:
     - theme: brand
-      text: Introduction
-      link: /basics/introduction
+      text: Get Started
+      link: /setting-up/setup-new-company
     - theme: alt
       text: View on GitHub
       link: https://github.com/frappe/books

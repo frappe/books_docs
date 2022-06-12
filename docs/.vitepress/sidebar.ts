@@ -28,14 +28,6 @@ export default function sidebar() {
       ],
     },
     {
-      text: 'Analytics',
-      collapsible: true,
-      items: [
-        { text: 'Dashboard', link: '/analytics/dashboard' },
-        { text: 'Reports', link: '/analytics/reports' },
-      ],
-    },
-    {
       text: 'Entries',
       collapsible: true,
       items: [
@@ -45,8 +37,18 @@ export default function sidebar() {
       ],
     },
     {
+      text: 'Analytics',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        { text: 'Dashboard', link: '/analytics/dashboard' },
+        { text: 'Reports', link: '/analytics/reports' },
+      ],
+    },
+    {
       text: 'Tools',
       collapsible: true,
+      collapsed: true,
       items: [
         { text: 'Search', link: '/tools/search' },
         { text: 'Data Import', link: '/tools/data-import' },
