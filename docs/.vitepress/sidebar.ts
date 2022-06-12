@@ -6,7 +6,15 @@ export default function sidebar() {
       items: [
         { text: 'Introduction', link: '/basics/introduction' },
         { text: 'Accounting Basics', link: '/basics/accounting-basics' },
-        { text: 'Setting Up', link: '/basics/setting-up' },
+      ],
+    },
+    {
+      text: 'Setting Up',
+      collapsible: true,
+      items: [
+        { text: 'Setup New Company', link: '/setting-up/setup-new-company' },
+        { text: 'Initial Entries', link: '/setting-up/initial-entries' },
+        { text: 'Opening Balances', link: '/setting-up/opening-balances' },
       ],
     },
     {
@@ -33,6 +41,7 @@ export default function sidebar() {
       items: [
         { text: 'Items', link: '/entries/items' },
         { text: 'Party', link: '/entries/party' },
+        { text: 'Taxes', link: '/entries/taxes' },
       ],
     },
     {
