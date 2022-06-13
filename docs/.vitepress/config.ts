@@ -12,6 +12,13 @@ export default defineConfig({
   outDir: '../dist',
   base: '/books_docs/',
 
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: 'image/x-icon', href: '/books_docs/favicon.ico' },
+    ],
+  ],
+
   themeConfig: {
     /**
      * TODO: enable these on the next vitepress release
@@ -21,6 +28,12 @@ export default defineConfig({
     // siteTitle: false,
     nav: nav(),
     sidebar: sidebar(),
+    editLink: {
+      repo: 'frappe/books_docs',
+      branch: 'master',
+      dir: 'docs',
+      text: 'Edit this page on GitHub',
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/frappe/books' },
       {
