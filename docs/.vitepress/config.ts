@@ -9,10 +9,16 @@ export default defineConfig({
   description: tagline,
   titleTemplate: tagline,
   appearance: false,
+  outDir: '../dist',
+  base: '/books_docs/',
 
   themeConfig: {
-    logo: '/logo.svg',
-    siteTitle: false,
+    /**
+     * TODO: enable these on the next vitepress release
+     * - now base url isn't updated in header
+     */
+    // logo: '/logo.svg',
+    // siteTitle: false,
     nav: nav(),
     sidebar: sidebar(),
     socialLinks: [
@@ -31,6 +37,10 @@ export default defineConfig({
 
 function nav() {
   return [
+    {
+      text: 'Introduction',
+      link: '/',
+    },
     {
       text: 'Home',
       link: 'https://frappebooks.com/',
