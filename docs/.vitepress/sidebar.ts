@@ -12,7 +12,7 @@ export default function sidebar() {
       text: 'Setting Up',
       collapsible: true,
       items: [
-        { text: 'Setup New Company', link: '/setting-up/setup-new-company' },
+        { text: 'Getting Started', link: '/setting-up/getting-started' },
         { text: 'Initial Entries', link: '/setting-up/initial-entries' },
         { text: 'Opening Balances', link: '/setting-up/opening-balances' },
       ],
@@ -21,6 +21,10 @@ export default function sidebar() {
       text: 'Transactions',
       collapsible: true,
       items: [
+        {
+          text: 'Transactional Entries',
+          link: '/transactions/transactional-entries',
+        },
         { text: 'Sales Invoices', link: '/transactions/sales-invoices' },
         { text: 'Purchase Invoices', link: '/transactions/purchase-invoices' },
         { text: 'Payments', link: '/transactions/payments' },

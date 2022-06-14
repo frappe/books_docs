@@ -1,30 +1,61 @@
-# Bills
+# Purchase Invoices
 
-A bill that your supplier sends you for products or services you have purchased.
+Purchase Invoices are bills that your supplier sends you when you make a
+purchase.
 
-### Creating Bills
+It is a transactional entry that denotes a purchase.
 
-When you have expenses that you don’t have to pay right away, record them by
-creating a Bill in Frappe Books. Your supplier may accept the payment later,
-after shipping, or you may have some other arrangement.
+## Creating Purchase Invoices
 
-To access the Bill list, go to Purchases > Bills.
+If you have set up your Frappe Books with Accounts, Taxes, Purchase Items, and
+Suppliers, creating a Purchase Invoice is as simple as it gets.
 
-1. Click on the blue plus button. A New Bill form will open up.
-2. Select the Supplier or create one from the dropdown.
-3. Select the Item and enter the Rate and Quantity. The default Tax for that
-   Item will be fetched, you can change it here if you want.
-4. Click on Save. Ledger entries will be created to increase the amount in
-   Accounts Payable.
+First navigate to the Purchase Invoices page
 
-<!-- ![Submitted Bill](/files/submitted-bill.png) -->
+`Purchases > Purchase Invoices`
 
-### Recording payments against Bills
+Then click on the blue `+` button to open the Purchase Invoice form.
 
-When it's time to record the payment, you can open the relevant Bill from
-Purchases > Bills then follow these steps.
+![Purchase Invoice Form](./images/purchase-invoice.png)
 
-1. Click on Menu > Make Payment.
-2. Enter the Payment Method, Date and click on Save. This will now reduce the
-   amount from Accounts Payable and the amount from your Bank Account will be
-   updated.
+1. Select the Supplier from whom you will be making a purchase.
+2. Click on Add Row and select the Item being purchased. Default Tax will be
+   fetched you can change it if required.
+3. Enter the Quantity.
+4. You can add more items or if you are done, click on Save.
+5. Once finalized, click on Submit. Frappe Books will do the required ledger
+   entries against the appropriate accounts.
+
+This invoice is now in _“Submitted”_ state, it cannot be edited. The purchase
+transaction has been recorded.
+
+## Making Purchase Payments
+
+Once a purchase invoice has been submitted, you’ll need to record payment
+against it to denote that you’ve paid the money.
+
+To make a Payment first navigate to the Purchase Invoice, then click on the
+`...` menu button. Then click the Make Payment option.
+
+![Sales Invoice Status](./images/purchase-payment.png)
+
+This will open the Payment quick edit form with the outstanding amount
+auto-filled.
+
+![Sales Invoice Payment](./images/purchase-payment-quickedit.png)
+
+You can change the values and click on Save. This will Save and Submit the
+Payment.
+
+On making the Payment, Frappe Books will make the necessary ledger entries to
+increase the payment amount in Accounts Payable and decrease the amount in your
+Bank or Cash Account.
+
+It will also update the Outstanding Amount on the invoice form.
+
+::: info Purchase Invoice Status
+Until Payments are made to settel the Outstanding Amount, the Purchase Invoice
+will be in the **Unpaid** state.
+
+Once the Outstanding Amount reaches 0, the status will change to **Paid**.
+:::

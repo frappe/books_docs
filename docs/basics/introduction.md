@@ -13,7 +13,7 @@ Learn the basics of accounting and get started with Frappe Books.
 
 A small primer to get you up to speed on the concepts of accounting.
 
-### [Setting Up](/setting-up/setup-new-company)
+### [Getting Started](/setting-up/getting-started)
 
 Learn how to configure Frappe Books for your company to get started.
 
