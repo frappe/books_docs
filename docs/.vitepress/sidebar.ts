@@ -6,6 +6,7 @@ export default function sidebar() {
       items: [
         { text: 'Introduction', link: '/basics/introduction' },
         { text: 'Accounting Basics', link: '/basics/accounting-basics' },
+        { text: 'Interface', link: '/basics/interface' },
       ],
     },
     {
@@ -34,6 +35,7 @@ export default function sidebar() {
     {
       text: 'Entries',
       collapsible: true,
+      collapsed: true,
       items: [
         { text: 'Items', link: '/entries/items' },
         { text: 'Party', link: '/entries/party' },
@@ -50,12 +52,13 @@ export default function sidebar() {
       ],
     },
     {
-      text: 'Tools',
+      text: 'Miscellaneous',
       collapsible: true,
       collapsed: true,
       items: [
-        { text: 'Search', link: '/tools/search' },
-        { text: 'Data Import', link: '/tools/data-import' },
+        { text: 'Search', link: '/miscellaneous/search' },
+        { text: 'Number Series', link: '/miscellaneous/number-series' },
+        { text: 'Data Import', link: '/miscellaneous/data-import' },
       ],
     },
   ];

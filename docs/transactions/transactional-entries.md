@@ -1,7 +1,7 @@
 # Transactional Entries
 
 In Frappe Books transactions are a special type of entry. These are entries that
-affect Accounts.
+change an Accounts balance.
 
 The following are transactional entries in Frappe Books
 
