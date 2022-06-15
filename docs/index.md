@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /books_docs/setting-up/getting-started
+      link: /setting-up/getting-started
     - theme: alt
       text: Get Frappe Books
       link: https://frappebooks.com/download

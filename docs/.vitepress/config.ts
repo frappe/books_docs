@@ -11,6 +11,7 @@ export default defineConfig({
   appearance: false,
   outDir: '../dist',
   base: '/books_docs/',
+  lastUpdated: true,
 
   head: [
     [
@@ -20,18 +21,12 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    /**
-     * TODO: enable these on the next vitepress release
-     * - now base url isn't updated in header
-     */
-    // logo: '/logo.svg',
-    // siteTitle: false,
+    logo: '/books_docs/logo.svg',
+    siteTitle: false,
     nav: nav(),
     sidebar: sidebar(),
     editLink: {
-      repo: 'frappe/books_docs',
-      branch: 'master',
-      dir: 'docs',
+      pattern: 'https://github.com/frappe/books_docs/edit/master/docs/:path',
       text: 'Edit this page on GitHub',
     },
     socialLinks: [
@@ -50,10 +45,6 @@ export default defineConfig({
 
 function nav() {
   return [
-    {
-      text: 'Introduction',
-      link: '/',
-    },
     {
       text: 'Home',
       link: 'https://frappebooks.com/',
