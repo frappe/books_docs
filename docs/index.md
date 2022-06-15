@@ -86,8 +86,17 @@ features:
   width: 6rem;
 }
 
+.content-container {
+  max-width: initial !important;
+}
+
 p > img{
+  width: 100%;
   border: solid 1px var(--vp-c-divider-light);
   border-radius: 8px;
+}
+
+.VPButton{
+  border-radius: 6px !important;
 }
 </style>
