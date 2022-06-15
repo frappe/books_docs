@@ -4,8 +4,8 @@ title: Frappe Books
 hero:
   name: Frappe Books
   text: Documentation And User Guide
-  tagline: "Welcome to the Frappe Books Documentation and User Guide.
-    Learn how to create entries, make transactions, read reports, and more!"
+  tagline: 'Welcome to the Frappe Books Documentation and User Guide.
+    Learn how to create entries, make transactions, read reports, and more!'
   actions:
     - theme: brand
       text: Get Started
@@ -76,6 +76,10 @@ features:
 
 .VPSidebar {
   border-right: solid 1px var(--vp-c-divider-light);
+}
+
+.VPFeature {
+  border: 1px solid var(--vp-c-divider-light) !important;
 }
 
 .logo {

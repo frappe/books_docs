@@ -48,7 +48,11 @@ export default function sidebar() {
       collapsed: true,
       items: [
         { text: 'Dashboard', link: '/analytics/dashboard' },
-        { text: 'Reports', link: '/analytics/reports' },
+        { text: 'Reports', link: 'analytics/reports' },
+        { text: 'General Ledger', link: '/analytics/general-ledger' },
+        { text: 'Profit and Loss', link: '/analytics/profit-and-loss' },
+        { text: 'Balance Sheet', link: '/analytics/balance-sheet' },
+        { text: 'Trial Balance', link: '/analytics/trial-balance' },
       ],
     },
     {
