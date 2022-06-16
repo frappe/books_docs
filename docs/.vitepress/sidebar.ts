@@ -37,6 +37,7 @@ export default function sidebar() {
       collapsible: true,
       collapsed: true,
       items: [
+        { text: 'Entries', link: '/entries/entries' },
         { text: 'Items', link: '/entries/items' },
         { text: 'Party', link: '/entries/party' },
         { text: 'Taxes', link: '/entries/taxes' },

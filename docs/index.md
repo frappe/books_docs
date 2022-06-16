@@ -74,6 +74,8 @@ features:
   --vp-c-brand-lighter: var(--blue-200);
 }
 
+/* Vitepress class and component overrides */
+
 .VPSidebar {
   border-right: solid 1px var(--vp-c-divider-light);
 }
@@ -90,13 +92,13 @@ features:
   max-width: initial !important;
 }
 
-p > img{
+p > img {
   width: 100%;
   border: solid 1px var(--vp-c-divider-light);
   border-radius: 8px;
 }
 
-.VPButton{
+.VPButton {
   border-radius: 6px !important;
 }
 </style>
