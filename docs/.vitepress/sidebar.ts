@@ -49,7 +49,7 @@ export default function sidebar() {
       collapsed: true,
       items: [
         { text: 'Dashboard', link: '/analytics/dashboard' },
-        { text: 'Reports', link: 'analytics/reports' },
+        { text: 'Reports', link: '/analytics/reports' },
         { text: 'General Ledger', link: '/analytics/general-ledger' },
         { text: 'Profit and Loss', link: '/analytics/profit-and-loss' },
         { text: 'Balance Sheet', link: '/analytics/balance-sheet' },
@@ -64,6 +64,8 @@ export default function sidebar() {
         { text: 'Search', link: '/miscellaneous/search' },
         { text: 'Number Series', link: '/miscellaneous/number-series' },
         { text: 'Data Import', link: '/miscellaneous/data-import' },
+        { text: 'Chart of Accounts', link: '/miscellaneous/chart-of-accounts' },
+        { text: 'Settings', link: '/miscellaneous/settings' },
       ],
     },
   ];

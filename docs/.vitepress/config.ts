@@ -10,18 +10,12 @@ export default defineConfig({
   titleTemplate: tagline,
   appearance: false,
   outDir: '../dist',
-  base: '/books_docs/',
   lastUpdated: true,
 
-  head: [
-    [
-      'link',
-      { rel: 'icon', type: 'image/x-icon', href: '/books_docs/favicon.ico' },
-    ],
-  ],
+  head: [['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]],
 
   themeConfig: {
-    logo: '/books_docs/logo.svg',
+    logo: '/logo.svg',
     siteTitle: false,
     nav: nav(),
     sidebar: sidebar(),
