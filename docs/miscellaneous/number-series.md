@@ -22,6 +22,12 @@ transactional entry types
 These are selected by default when making a transactional entry. You can create
 new a Number Series to suit your needs.
 
+::: warning
+The Number Series of a transactional entry cannot be changed once Save is
+clicked.
+:::
+
+
 ## Creating a New Number Series
 
 To create a new Number Series for a specific transactional entry
