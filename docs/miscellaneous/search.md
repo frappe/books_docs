@@ -5,7 +5,7 @@ activate it you can click on the search button in the header:
 
 ![Search Bar](./images/search-bar.png)
 
-Or you can press `Ctrl + K` or `Cmnd + K` depending on your operating system.
+Or you can press `Ctrl + K` or `Cmd + K` depending on your operating system.
 
 ## Search Dialog
 
