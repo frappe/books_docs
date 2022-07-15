@@ -44,8 +44,8 @@ function nav() {
       link: 'https://frappebooks.com/',
     },
     {
-      text: 'Releases',
-      link: 'https://github.com/frappe/books/releases',
+      text: 'Download',
+      link: 'https://frappebooks.com/download',
     },
     {
       text: 'Community',

@@ -30,6 +30,19 @@ Then click on the blue `+` button to open the Sales Invoice form.
 This invoice is now in _“Submitted”_ state, it cannot be edited. The sales
 transaction has been recorded.
 
+## Editing an Invoice Item
+
+To edit the values of an Invoice Item click on the edit button on the item row
+![Edit Invoice Item](./images/invoice-item.png)
+
+From here you can change the item description, HSN code check the Taxed Amount,
+etc.
+
+::: tip Setting the Taxed Amount
+You can directly set the Taxed Amount, Frappe Books will calculate the Rate of
+the Item automatically.
+:::
+
 ## Making Sales Payments
 
 Once a sales invoice has been submitted, you’ll need to record payment against
