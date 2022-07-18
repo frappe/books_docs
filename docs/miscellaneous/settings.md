@@ -25,22 +25,28 @@ These settings can also be altered from the
 
 These settings are used to set and customize accounting defaults.
 
-The following settings are set during the Setup Wizard and cannot be altered.
+**Settings that cannot be changed**
 
-1. Company Name
-2. Country
-3. Bank Name
+1. Full Name
+2. Company Name
+3. Country
+4. Bank Name
 
-The following settings can be altered
+::: info Setup Wizard
+These values are set when setting up a new instance using the Setup Wizard.
+:::
 
-1. Write Off Account: account used when a Write Off amount is set when making a Payment
-2. Round Off Account: account used to settle the credit and debit difference when
+**Settings that can be changed**
+
+1. Fiscal Year Start Date: used as the start date when displaying the reports by fiscal year.
+2. Fiscal Year End Date: used as the end date when displaying the reports by fiscal year.
+3. Write Off Account: account used when a Write Off amount is set when making a Payment
+4. Round Off Account: account used to settle the credit and debit difference when
    the General Ledger is updated.
-3. Fiscal Year Start Date: used as the start date when displaying the reports by fiscal year.
-4. Fiscal Year End Date: used as the end date when displaying the reports by fiscal year.
+5. Enable Discount Accounting: used to enable the setting of discounts in invoices. ([link](/transactions/discount-accounting))
 
 ::: info GSTIN
-GSTIN setting is available only when the country is India.
+GSTIN setting is available only when the country is set to India.
 
 Setting this value will enable the GST Reports.
 :::
