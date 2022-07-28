@@ -85,7 +85,7 @@ features:
 }
 
 .logo {
-  width: 6rem;
+  width: 80px;
 }
 
 .content-container {
