@@ -1,15 +1,15 @@
-# Search
+# Quick Search
 
-The Search interface is a quick way to navigate around in Frappe Books. To
+The Quick Search interface is a quick way to navigate around in Frappe Books. To
 activate it you can click on the search button in the header:
 
-![Search Bar](./images/search-bar.png)
+![Quick Search Bar](./images/search-bar.png)
 
 Or you can press `Ctrl + K` or `Cmd + K` depending on your operating system.
 
-## Search Dialog
+## Dialog
 
-![Search Dialog](./images/search-dialog.png)
+![Quick Search Dialog](./images/search-dialog.png)
 
 To search for anything type what you are looking for in the input bar at the
 top.
@@ -40,11 +40,11 @@ Purchase Invoice.
 In the bottom section you will find the filters which will help you narrow your
 search results.
 
-## Search Filters
+## Filters
 
 Clicking on More Filters will display all the filters.
 
-![Search Filters](./images/search-filters.png)
+![Quick Search Filters](./images/search-filters.png)
 
 There are two kinds of filters here.
 
@@ -72,7 +72,7 @@ search.
 
 ## Examples
 
-The Search functionality is very powerful, you can run various kind of queries
+The Quick Search functionality is very powerful, you can run various kind of queries
 just by entering a few letters.
 
 Here are a few examples.

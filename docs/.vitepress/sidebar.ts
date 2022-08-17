@@ -62,7 +62,7 @@ export default function sidebar() {
       collapsible: true,
       collapsed: true,
       items: [
-        { text: 'Search', link: '/miscellaneous/search' },
+        { text: 'Quick Search', link: '/miscellaneous/search' },
         { text: 'Number Series', link: '/miscellaneous/number-series' },
         { text: 'Data Import', link: '/miscellaneous/data-import' },
         { text: 'Chart of Accounts', link: '/miscellaneous/chart-of-accounts' },
