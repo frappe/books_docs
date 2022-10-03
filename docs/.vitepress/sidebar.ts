@@ -29,6 +29,7 @@ export default function sidebar() {
         { text: 'Sales Invoices', link: '/transactions/sales-invoices' },
         { text: 'Purchase Invoices', link: '/transactions/purchase-invoices' },
         { text: 'Discount Accounting', link: '/transactions/discount-accounting' },
+        { text: 'Multi Currency Invoicing', link: '/transactions/multi-currency-invoicing' },
         { text: 'Payments', link: '/transactions/payments' },
         { text: 'Journal Entries', link: '/transactions/journal-entries' },
       ],
