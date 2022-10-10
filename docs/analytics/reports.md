@@ -6,7 +6,7 @@ General Ledger Entries that are created when any
 
 ## Sections
 
-All repors have two sections
+All reports have two sections:
 
 1. Filter Section
 2. Report Section
