@@ -25,7 +25,7 @@ A transactional entry goes through the following states
 
 Check the sections below on more details about these states.
 
-## Making an Entry
+## Creating an Entry
 
 To create and entry first navigate to the page, then click the blue `+` button.
 

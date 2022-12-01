@@ -26,7 +26,7 @@ to Journal Entries.
 
 ### Ref Name
 
-Ref Name filter allows to display all ledger entries that were generate due to a
+Ref Name filter allows to display all ledger entries that were generated due to a
 single Transactional Entry.
 
 To enable this you need to first set Ref Type.
@@ -74,4 +74,4 @@ cancelled.
 By default the entries are displayed by newest entry first, i.e. descending
 order of Date.
 
-Checking this will display the entries in ascending order of date.
+Checking this will display the entries in ascending order of entry date.

@@ -28,8 +28,14 @@ export default function sidebar() {
         },
         { text: 'Sales Invoices', link: '/transactions/sales-invoices' },
         { text: 'Purchase Invoices', link: '/transactions/purchase-invoices' },
-        { text: 'Discount Accounting', link: '/transactions/discount-accounting' },
-        { text: 'Multi Currency Invoicing', link: '/transactions/multi-currency-invoicing' },
+        {
+          text: 'Discount Accounting',
+          link: '/transactions/discount-accounting',
+        },
+        {
+          text: 'Multi Currency Invoicing',
+          link: '/transactions/multi-currency-invoicing',
+        },
         { text: 'Payments', link: '/transactions/payments' },
         { text: 'Journal Entries', link: '/transactions/journal-entries' },
       ],
@@ -43,6 +49,20 @@ export default function sidebar() {
         { text: 'Items', link: '/entries/items' },
         { text: 'Party', link: '/entries/party' },
         { text: 'Taxes', link: '/entries/taxes' },
+      ],
+    },
+    {
+      text: 'Inventory',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        { text: 'Introduction', link: '/inventory/introduction' },
+        { text: 'Stock Movement', link: '/inventory/stock-movement' },
+        { text: 'Shipment', link: '/inventory/shipment' },
+        { text: 'Purchase Receipt', link: '/inventory/purchase-receipt' },
+        { text: 'Stock Ledger', link: '/inventory/stock-ledger' },
+        { text: 'Stock Balance', link: '/inventory/stock-balance' },
+        { text: 'Settings', link: '/inventory/settings' },
       ],
     },
     {
