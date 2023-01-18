@@ -37,3 +37,9 @@ Purchase Receipt is made.
 
 This is used to set the default Cost of Goods Sold Account that is debited
 whenever a Shipment is made.
+
+### Enable Barcodes
+
+Checking this will allow you to set barcodes on items. It will also display a
+barcode input in forms (such as Sales Invoice and Shipment) where items are
+entered.
