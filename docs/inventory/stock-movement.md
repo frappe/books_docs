@@ -14,6 +14,7 @@ There are three types of Stock Movements that you can create:
 1. Material Issue: stock is moved out of a location.
 2. Material Receipt: stock is moved into a location.
 3. Material Transfer: stock is moved from one location to another.
+4. Manufacture: stock of items are moved out of a location and stock of different items are moved into a location.
 
 Depending on the Movement Type you have to set the From and To movement locations
 
@@ -22,6 +23,17 @@ Depending on the Movement Type you have to set the From and To movement location
 | Material Issue    | `set`     | `not set` |
 | Material Receipt  | `not set` | `set`     |
 | Material Transfer | `set`     | `set`     |
+| Manufacture       | `set`     | `set`     |
+
+::: tip Manufacture
+For the Manufacture type, both From and To are set but for **different items**.
+
+This reflects the stock movements of a manufacturing process where a set of raw
+materials are converted into finished goods.
+
+The inventory quantities of the raw material will go down and that of the
+finished goods will go up.
+:::
 
 ## Creating Stock Movements
 
