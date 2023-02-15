@@ -41,7 +41,7 @@ statements.
 
 ---
 
-Congratulations! You have now set you Opening Balances. :tada:
+Congratulations! You have now set your Opening Balances. :tada:
 
 This brings your books to the same position that was present in your previous
 accounting system.

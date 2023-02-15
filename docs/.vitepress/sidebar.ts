@@ -85,7 +85,7 @@ export default function sidebar() {
       items: [
         { text: 'Quick Search', link: '/miscellaneous/search' },
         { text: 'Number Series', link: '/miscellaneous/number-series' },
-        { text: 'Data Import', link: '/miscellaneous/data-import' },
+        { text: 'Import Wizard', link: '/miscellaneous/import-wizard' },
         { text: 'Chart of Accounts', link: '/miscellaneous/chart-of-accounts' },
         { text: 'Settings', link: '/miscellaneous/settings' },
       ],
