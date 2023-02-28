@@ -43,3 +43,15 @@ whenever a Shipment is made.
 Checking this will allow you to set barcodes on items. It will also display a
 barcode input in forms (such as Sales Invoice and Shipment) where items are
 entered.
+
+### Enable Batches
+
+Checking this will allow the usage of Batches. Items will have a Has Batch
+option if the item is being tracked. It will also enable the Batch entry type
+which can be navigated to by using the Quick Search.
+
+### Enable UOM Conversion
+
+Checking this will allow setting multiple UOMs for an Items. Then when making a
+entry that involves the Item, one of the other UOMs can be selected to mention
+its quantity.

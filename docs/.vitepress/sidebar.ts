@@ -62,6 +62,7 @@ export default function sidebar() {
         { text: 'Purchase Receipt', link: '/inventory/purchase-receipt' },
         { text: 'Stock Ledger', link: '/inventory/stock-ledger' },
         { text: 'Stock Balance', link: '/inventory/stock-balance' },
+        { text: 'Batches', link: '/inventory/batches' },
         { text: 'Settings', link: '/inventory/settings' },
       ],
     },
