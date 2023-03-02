@@ -27,7 +27,6 @@ The Number Series of a transactional entry cannot be changed once Save is
 clicked.
 :::
 
-
 ## Creating a New Number Series
 
 To create a new Number Series for a specific transactional entry
@@ -39,11 +38,11 @@ To create a new Number Series for a specific transactional entry
 ![Number Series Field](./images/number-series-field.png)
 
 This will take you to the Number Series Quick Edit Form where you can change the
-number series settings.
+number series configuration.
 
 ![Number Series Form](./images/new-number-series.png)
 
-Once you are done editing the settings, click on Save, now you can use the new
+Once you are done editing, click on Save, now you can use the new
 Number Series for the entry.
 
 ## Number Series Fields
