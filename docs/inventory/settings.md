@@ -50,6 +50,12 @@ Checking this will allow the usage of Batches. Items will have a Has Batch
 option if the item is being tracked. It will also enable the Batch entry type
 which can be navigated to by using the Quick Search.
 
+### Enable Serial Number
+
+Checking this will allow the usage of Serial Number. Items will have a Has Serial No
+option if the item is being tracked. It will also enable the Serial No entry type
+in the Inventory tab.
+
 ### Enable UOM Conversion
 
 Checking this will allow setting multiple UOMs for an Items. Then when making a
