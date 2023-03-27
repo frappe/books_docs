@@ -49,6 +49,8 @@ export default function sidebar() {
         { text: 'Items', link: '/entries/items' },
         { text: 'Party', link: '/entries/party' },
         { text: 'Taxes', link: '/entries/taxes' },
+        { text: 'Price List', link: '/entries/price-list' },
+        { text: 'Item Price', link: '/entries/item-price' },
       ],
     },
     {
