@@ -9,7 +9,7 @@ The Import Wizard is a powerful tool that can allow you to:
 
 To use the Import Wizard navigate to it using the sidebar:
 `Setup > Import Wizard`.
-Or alternatively the Quick Search, type "Import Wizard" and hit enter.
+Or alternatively open the Quick Search, type "Import Wizard" and hit enter.
 
 ### The Interface
 
