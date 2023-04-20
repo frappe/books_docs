@@ -51,8 +51,15 @@ Setting this value will enable the GST Reports.
 
 ![Defaults](./images/defaults.png)
 
-These settings are used to set [Number Series](/miscellaneous/number-series) and
-Terms defaults which are used when a new entry is created.
+These settings are used to set default values that are selected when creating an
+entry. They allow for quicker creation of entries but can be changed when making
+entries.
+
+The following Defaults can be set:
+1. Accounts used for Quick Payments.
+2. [Number Series](/miscellaneous/number-series) for transactional entries. 
+3. Terms to be used for certain transactional entries.
+4. [Print Templates](/miscellaneous/print-templates) to be used when printing an entry.
 
 ## Print Settings
 

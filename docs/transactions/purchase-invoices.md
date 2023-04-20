@@ -59,3 +59,23 @@ will be in the **Unpaid** state.
 
 Once the Outstanding Amount reaches 0, the status will change to **Paid**.
 :::
+
+### Auto Payments
+
+You can simplify the _Purchase Invoice → Payment_ workflow by using Auto
+Payments. For this you just need to set the default accounts for Sales Payment.
+
+This can be done in `Setup > Settings > Defaults > Auto Payments`:
+![Payment Accounts](./images/payment-accounts.png)
+
+Once this is set, whenever you Submit a Purchase Invoice a Payment entry will
+automatically be created.
+
+::: tip Disable Auto Payment for a Purchase Invoice
+
+You can disable Auto Payment for a single Purchase Invoice by unchecking the Make
+Payment On Submit check box in the Settings tab before Submitting the Purchase
+Invoice entry.
+
+![Disable Auto Payment](./images/auto-payment.png)
+:::
