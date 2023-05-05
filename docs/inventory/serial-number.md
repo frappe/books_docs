@@ -25,7 +25,7 @@ Has Serial Number. can be enabled only if Track Item is set.
 ## Mentioning Item Serial Number
 
 Once a Serial Number has been enabled for an [Item](/entries/items), transactions involving 
-the item that update Inventory, such as Stock Movements, Shipments, and Purchases, must 
+the Item that update Inventory, such as Stock Movements, Shipments, and Purchases, must 
 include the Serial Number. 
 
 This can be done by clicking the edit button on the table row and selecting the Serial Number.
@@ -40,7 +40,7 @@ column, one per line.
 ## Serial Number Status
 
 - Serial Number Status is set based on Stock Entry.
-- Serial Numbers can automatically be created from a Material Receipt or Purchase
+- Serial Numbers can automatically be created from a Material Issue, Material Receipt or Purchase
   Receipt. Serial Numbers are automatically created if you mention them in
   the Serial Numbers column.
 - Only Serial Numbers with status `Active` can be delivered.
