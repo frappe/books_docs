@@ -16,7 +16,7 @@ and then type "serial number list" and select the first option.
 Once you've enabled Serial Number, you can mark an item as a serialised item by
 first checking `Track Item` and then `Has Serial Number.`
 
-![Enable Has Serial Number](./images/item-has-serial-no.png)
+![Enable Has Serial Number](./images/item-has-serial-number.png)
 
 ::: info Track Item
 Has Serial Number. can be enabled only if Track Item is set.
@@ -30,7 +30,7 @@ include the Serial Number.
 
 This can be done by clicking the edit button on the table row and selecting the Serial Number.
 
-![Mentioning Serial Numbers](./images/mentioning-serial-no.png)
+![Mentioning Serial Numbers](./images/mentioning-serial-number.png)
 
 ::: info Serial Number
 If your item is serialised, you must put the Serial Number in the related
