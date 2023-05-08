@@ -63,6 +63,7 @@ export default function sidebar() {
         { text: 'Stock Ledger', link: '/inventory/stock-ledger' },
         { text: 'Stock Balance', link: '/inventory/stock-balance' },
         { text: 'Batches', link: '/inventory/batches' },
+        { text: 'Serial Number', link: '/inventory/serial-number' },
         { text: 'Settings', link: '/inventory/settings' },
       ],
     },
