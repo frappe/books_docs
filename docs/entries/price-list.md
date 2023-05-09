@@ -12,9 +12,14 @@ To view a Price List, go to:`Common > Price List`
 
 The Price List feature needs to be enabled first by checking the `Enable Price List` 
 option in the General Settings.
+
 To navigate: `Setup > Settings > General Tab` 
 
 ![Enable Price List](./images/enable-price-list.png)
+
+## Creating Price List
+
+1. Navigate to : `Common > Price List > Click on "+"`
 
 ## Choosing a Price List
 
