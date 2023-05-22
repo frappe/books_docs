@@ -27,6 +27,8 @@ export default function sidebar() {
           link: '/transactions/transactional-entries',
         },
         { text: 'Sales Invoices', link: '/transactions/sales-invoices' },
+        { text: 'Credit Notes', link: '/transactions/credit-notes' },
+
         { text: 'Purchase Invoices', link: '/transactions/purchase-invoices' },
         {
           text: 'Discount Accounting',
