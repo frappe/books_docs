@@ -31,11 +31,11 @@ The Item quantity and Payment amount will be negative since it's a return.
 ### Creating Manually 
 1. Navigate to the Sales Invoices page `Sales > Sales Invoices`
 2. Then click on the blue `+` button to open the Sales Invoice form.
-3. Fill Item Details.
-4. Click on the `Is Return` checkbox to mark the Sales Invoice as Credit Note.
+3. Check `Is Return` to mark the Sales Invoice as Credit Note.
    ![Check Is Return](./images/check-is-return.png)
-5. If you want to reference an original Sales Invoice, click on `Return Against`
+4. If you want to reference an original Sales Invoice, click on `Return Against`
    then select the target Sales Invoice.
+5. Fill Item Details.
 6. Save and Submit
 
 
