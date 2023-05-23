@@ -28,6 +28,7 @@ export default function sidebar() {
         },
         { text: 'Sales Invoices', link: '/transactions/sales-invoices' },
         { text: 'Purchase Invoices', link: '/transactions/purchase-invoices' },
+        { text: 'Debit Notes', link: '/transactions/debit-notes' },
         {
           text: 'Discount Accounting',
           link: '/transactions/discount-accounting',
