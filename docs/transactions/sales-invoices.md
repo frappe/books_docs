@@ -94,6 +94,12 @@ Invoice entry.
 ![Disable Auto Payment](./images/auto-payment.png)
 :::
 
+## Creating Return (Credit Notes)
+
+The user can create a Credit Note against the Sales Invoice or create a Credit 
+Note directly from the Sales Invoice without mentioning reference. To know more,
+visit the [Credit Note](./credit-notes) page.
+
 ## Printing the Sales Invoice
 
 To export the Sales Invoice as a PDF, click on the Print button next to the
