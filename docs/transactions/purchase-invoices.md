@@ -79,3 +79,9 @@ Invoice entry.
 
 ![Disable Auto Payment](./images/auto-payment.png)
 :::
+
+## Creating Return (Debit Notes)
+
+The user can create a Debit Note against the Purchase Invoice or create a Debit 
+Note directly from the Purchase Invoice without mentioning reference. To know more,
+visit the [Debit Note](./debit-notes) page.
