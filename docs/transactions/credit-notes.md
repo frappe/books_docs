@@ -6,7 +6,6 @@ credit has been made to their account against the goods returned by the Buyer.**
 A Credit Note is issued for the value of the goods that the Customer returns. 
 this amount could be less than or equal to the total amount of the order.
 
-
 ## Creating Credit Notes
 
 The user can create a Credit Note against the Sales Invoice or create a Credit 
@@ -23,12 +22,12 @@ Note directly from the Sales Invoice without mentioning reference.
 
    ![Submitted Credit Note](./images/submitted-credit-note.png)
 
-
 ::: info 
 The Item quantity and Payment amount will be negative since it's a return.
 :::
 
 ### Creating Manually 
+
 1. Navigate to the Sales Invoices page `Sales > Sales Invoices`
 2. Then click on the blue `+` button to open the Sales Invoice form.
 3. Check `Is Return` to mark the Sales Invoice as Credit Note.
@@ -38,7 +37,6 @@ The Item quantity and Payment amount will be negative since it's a return.
 5. Fill Item Details.
 6. Save and Submit
 
-
 ## How does Credit Notes affect General Ledger
 
 When a Payment Entry is created against the original Sales Invoice, the amount 
@@ -47,10 +45,11 @@ be adjusted the next time they make a purchase.
 
 ![Credit Note in General Ledger](./images/credit-note-in-general-ledger.png)
 
-
 ## No payment was made against Sales Invoice
+
 If no Payment Entry was made against the original Sales Invoice, then you could
 simply cancel the Sales Invoice. However, if only 5 out of 10 items from a Sales
 Invoice are returned, creating a Credit Note is useful for updating the ledger.
 
-Refer the [Sales Invoice](/transactions/sales-invoices.md) page for any other details.
+Refer the [Sales Invoice](/transactions/sales-invoices.md) page for any other 
+details.
