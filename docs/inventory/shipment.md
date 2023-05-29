@@ -51,6 +51,40 @@ out for you. Else you will have to enter the Shipment details.
 Once the Shipment details have been entered, click on Save and then Submit to
 make the Shipment entry.
 
+## Shipment Return
+
+The customer could return an already sold Item due to quality issues, non-delivery
+on the agreed date, or any other reason. The user can create a Shipment Return
+directly from the original Shipment document or manually from the New Shipment Entry.
+
+### Creating a Shipment Return
+
+1. Open the original Shipment document, against which customer returned the Items.
+2. Click on **Create > Sales Return**.
+   ![Create Sales Return](./images/shipment-create-sales-return.png)
+3. The Party and Item details will be fetched as set in the original Shipment document.
+   You can set the quantity of Items returned in negative numbers.
+   ![Shipment Return Form](./images/shipment-return-form.png)
+4. Save and Submit
+
+::: info
+The Item quantity and Payment amount will be in negative figures since it's a return.
+:::
+
+### Creating Manually
+
+1. Navigate to the Shipment page `Inventory > Shipment`
+2. Check `isReturn` to mark the Shipment as Return. If you want to reference an original
+   Shipment, click on `Return Against` then select the target Shipment.
+   ![Check Is Return](./images/shipment-set-is-return.png)
+3. Fill Item details.
+4. Save and Submit.
+
+## How does Shipment Return affect General Ledger
+
+The Shipment Return will reverse the impact of the original Shipment in the General Ledger.
+![Shipment Return in General Ledger](./images/shipment-return-in-general-ledger.png)
+
 ## View Ledger Entries
 
 After a Shipment is submitted, both Stock Ledger and General Ledger entries are
