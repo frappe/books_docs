@@ -51,6 +51,15 @@ out for you. Else you will have to enter the Shipment details.
 Once the Shipment details have been entered, click on Save and then Submit to
 make the Shipment entry.
 
+A Shipment can have one of four Status:
+
+| Status        | Description                       |
+| ------------- | --------------------------------- |
+| Completed     | Shipment Entry is Submitted       |
+| Return        | Shipment Return is Submitted      |
+| Return Issued | Shipment Items are fully returned |
+| Cancelled     | Shipment Entry is cancelled       |
+
 ## Shipment Return
 
 The customer could return an already sold Item due to quality issues, non-delivery
