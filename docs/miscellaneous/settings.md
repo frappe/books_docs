@@ -56,10 +56,22 @@ entry. They allow for quicker creation of entries but can be changed when making
 entries.
 
 The following Defaults can be set:
-1. Accounts used for Quick Payments.
-2. [Number Series](/miscellaneous/number-series) for transactional entries. 
-3. Terms to be used for certain transactional entries.
-4. [Print Templates](/miscellaneous/print-templates) to be used when printing an entry.
+
+1. Accounts used for Auto Payments.
+2. Locations used for Auto Stock Transfers.
+3. [Number Series](/miscellaneous/number-series) for transactional entries.
+4. Terms to be used for certain transactional entries.
+5. [Print Templates](/miscellaneous/print-templates) to be used when printing an entry.
+
+:::warning Auto Stock Transfer items
+
+An Item from an Invoice is included in the auto Stock Transfer only if these conditions are met:
+
+1. The item does not use Batches.
+2. The item does not use Serial Numbers.
+3. There is sufficient quantity of the item at the set default Location.
+
+:::
 
 ## Print Settings
 
