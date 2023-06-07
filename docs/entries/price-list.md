@@ -1,13 +1,15 @@
 # Price List
 
-Using Price List, you can keep track of multiple selling and buying
-[Item Prices](#item-price-table-fields).
+Using Price List, you can keep track of multiple [Item Prices](#item-price-table-fields) for sales and purchase.
 
-An Item can have several pricing based on the customer, whether they are
-buying or selling, Batches, and so on, and these prices can be saved in
-separate rate plans
+An Item can by priced differently depending on whether it is for sale or
+purchase, if it is discount season, etc.
 
-To view a Price List, go to:`Common > Price List`
+A Price List helps by grouping multiple item prices under a single entry. You
+can then select this entry when making a Sales or a Purchase Invoice, and when
+an item is selected its rate will be fetched from the Price list.
+
+To use Price Lists you need to first enable them.
 
 ## Enable Price List
 
@@ -17,37 +19,33 @@ The Price List feature needs to be enabled first by checking the
 To navigate: `Setup > Settings > General Tab`
 ![Enable Price List](./images/enable-price-list.png)
 
-## Price List Fields
+## Create a Price List
 
-![Price List Fields](./images/price-list-fields.png)
+To create a Price Lists, go to:`Common > Price List`. And then click on the blue
+`+` button to open a new Price List creation form.
 
-1. **Name**: a name to identify the Price List.
-2. **Enabled**: To Enable or Disable the Price List.
-3. **Buying**: Check to enable the Price List for Buying.
-4. **Selling**: Check to enable the Price List for Selling.
-5. **Is Price UOM Dependent**: Item Price will be only applied for the selected Unit.
+![Price List Form](./images/price-list.png)
 
+Add Item Prices to your price list, when done click on the Save button.
 
-## Item Price Table Fields
+Price List Fields:
 
-![Item Price Fields](./images/item-price-fields.png)
+1. **Is Price List Enabled**: enables the Price List, if disabled it cannot be used.
+2. **For Sales**: if enabled, the Price List can be selected in Sales Invoices.
+3. **For Purchases**: if enabled, the Price List can be selected in Purchase Invoices.
 
-1. **Item**: The Item you want to set the Item Price for.
-2. **Rate**: The Rate you want to set for the Item.
-3. **Enabled**: Check to mark the Item Price as enabled.
-4. **Buying**: Check to enable the Item Price for Buying.
-5. **Selling**: Check to enable the Item Price for Selling
-6. **Party**: Select a Party if you want to set an Item Price for a specific Party.
-7. **Unit Type**: Select the Unit for which the Item Price is applicable.
-8. **Batch**: Select a Batch if you want to set an Item Price for a specific Batch.
-9. **Valid From**: The date when the Item Price becomes effective.
-10. **Valid To**: The date till the Item Price is effective.
+:::tip Multiple Prices
 
-## Choosing a Price List 
+You can add multiple prices for an Item in the Price List. When fetching the
+price from the Price List, the first Item Price with a matching Unit Type will
+be selected.
+:::
 
-You need to select **Price List** in the Invoice Form to have the Item Price
-fetched in the [Sales](/transactions/sales-invoices#sales-invoices) or
-[Purchase](/transactions/purchase-invoices#creating-purchase-invoices)
-transaction.
+## Setting a Price List
 
-![Choosing Price List](./images/price-list-in-invoice.png)
+To use a Price List, ou need to select **Price List** in the Sales or Purchase Invoice form.
+
+![Price List Selection](./images/price-list-selection.png)
+
+Once this is done, when a new item is selected it's price will be fetched from
+the selected Price List.

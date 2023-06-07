@@ -44,6 +44,14 @@ You can change the example Entry being displayed. By default Frappe Books
 selects the latest entry that has been created.
 :::
 
+:::tip Custom Sizes
+
+You can adjust the size of the Print Template by clicking on the Set Print Size
+option in the `···` menu.
+
+![Custom Print Template Size](./images/custom-print-size.png)
+:::
+
 Now you are ready to edit the Print Template
 
 ## Editing the Template
