@@ -68,7 +68,7 @@ your Bank or Cash Account.
 It will also update the Outstanding Amount on the invoice form.
 
 ::: info Sales Invoice Status
-Until Payments are made to settel the Outstanding Amount, the Sales Invoice
+Until Payments are made to settle the Outstanding Amount, the Sales Invoice
 will be in the **Unpaid** state.
 
 Once the Outstanding Amount reaches 0, the status will change to **Paid**.
@@ -76,7 +76,7 @@ Once the Outstanding Amount reaches 0, the status will change to **Paid**.
 
 ### Auto Payments
 
-You can simplify the _Saes Invoice → Payment_ workflow by using Auto Payments.
+You can simplify the _Sales Invoice → Payment_ workflow by using Auto Payments.
 For this you just need to set the default accounts for Sales Payment.
 
 This can be done in `Setup > Settings > Defaults > Auto Payments`:
