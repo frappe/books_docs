@@ -50,10 +50,54 @@ out for you. Else you will have to enter the Purchase Receipt details.
 Once the Purchase Receipt details have been entered, click on Save and then Submit to
 make the Purchase Receipt entry.
 
+A Purchase Receipt can have one of four Status:
+
+| Status        | Description                                          |
+|---------------|------------------------------------------------------|
+| Submitted     | Purchase Receipt Entry is Submitted                  |
+| Return        | Purchase Receipt Return Entry is Submitted           |
+| Return Issued | Purchase Receipt has Return Entry created against it |
+| Cancelled     | Purchase Receipt Entry is cancelled                  |
+
+## Purchase Receipt Return
+
+The user can create a Purchase Receipt Return directly from the original Purchase
+Receipt document or manually from the New Purchase Receipt Entry.
+
+### Creating a Purchase Receipt Return
+
+1. Open the original Purchase Receipt document.
+2. Click on **Create > Return**.
+   ![Create Purchase Receipt Return](./images/create-purchase-receipt-return.png)
+3. The Party and Item details will be fetched as set in the original Purchase Receipt
+   document. You can set the quantity of Items returned in negative numbers.
+   ![Purchase Receipt Return Form](./images/purchase-receipt-return-form.png)
+4. Save and Submit.
+
+::: info
+The Item quantity and Payment amount will be in negative figures since it's a return.
+:::
+
+### Creating Manually
+
+1. Navigate to the Purchase Receipt page `Inventory > Purchase Receipt`
+2. Check **is Return** to mark the Purchase Receipt as Return. If you want to reference 
+   an original Purchase Receipt, click on **Return Against** then select the target 
+   Purchase Receipt.
+   ![Check Is Return](./images/purchase-receipt-set-is-return.png)
+3. Fill Item details.
+4. Save and Submit.
+
+## How does Purchase Receipt Return affect General Ledger
+
+The Purchase Receipt Return will reverse the impact of the original Purchase Receipt
+in the General Ledger.
+![Purchase Receipt Return in General Ledger](./images/purchase-receipt-return-in-general-ledger.png)
+
 ## View Ledger Entries
 
-After a Purchase Receipt is submitted, both Stock Ledger and General Ledger entries are
-created.
+After a Purchase Receipt is submitted, both Stock Ledger and General Ledger entries
+are created.
 
 To view these you can click on the View button and select the one you would like
 to see.

@@ -53,12 +53,12 @@ make the Shipment entry.
 
 A Shipment can have one of four Status:
 
-| Status        | Description                           |
-|---------------|---------------------------------------|
-| Submitted     | Shipment Entry is Submitted           |
-| Return        | Shipment Return is Submitted          |
-| Return Issued | Shipment Return is created against it |
-| Cancelled     | Shipment Entry is cancelled           |
+| Status        | Description                                  |
+|---------------|----------------------------------------------|
+| Submitted     | Shipment Entry is Submitted                  |
+| Return        | Shipment Return is Submitted                 |
+| Return Issued | Shipment has Return Entry created against it |
+| Cancelled     | Shipment Entry is cancelled                  |
 
 ## Shipment Return
 
