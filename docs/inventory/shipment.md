@@ -68,6 +68,13 @@ on the agreed date, or any other reason.
 The user can create a Shipment Return directly from the original Shipment document
 or manually from the New Shipment Entry.
 
+The Stock Returns feature needs to be enabled first by checking the **Enable Stock
+Returns** option in the General Settings.
+
+To navigate: `Setup > Settings > General Tab`
+
+![Enable Stock Returns](./images/enable-stock-returns.png)
+
 ### Creating a Shipment Return
 
 1. Open the original Shipment document, against which customer returned the Items.

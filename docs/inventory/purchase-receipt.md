@@ -64,6 +64,13 @@ A Purchase Receipt can have one of four Status:
 The user can create a Purchase Receipt Return directly from the original Purchase
 Receipt document or manually from the New Purchase Receipt Entry.
 
+The Stock Returns feature needs to be enabled first by checking the **Enable Stock
+Returns** option in the General Settings.
+
+To navigate: `Setup > Settings > General Tab`
+
+![Enable Stock Returns](./images/enable-stock-returns.png)
+
 ### Creating a Purchase Receipt Return
 
 1. Open the original Purchase Receipt document.
