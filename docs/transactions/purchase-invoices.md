@@ -37,12 +37,12 @@ against it to denote that you’ve paid the money.
 To make a Payment first navigate to the Purchase Invoice, then click on the
 `...` menu button. Then click the Make Payment option.
 
-![Sales Invoice Status](./images/purchase-payment.png)
+![Purchase Invoice Status](./images/purchase-payment.png)
 
 This will open the Payment quick edit form with the outstanding amount
 auto-filled.
 
-![Sales Invoice Payment](./images/purchase-payment-quickedit.png)
+![Purchase Invoice Payment](./images/purchase-payment-quickedit.png)
 
 You can change the values and click on Save. This will Save and Submit the
 Payment.
@@ -79,3 +79,40 @@ Invoice entry.
 
 ![Disable Auto Payment](./images/auto-payment.png)
 :::
+
+## Purchase Invoice Return
+
+The user can create a Purchase Invoice Return directly from the original Purchase
+Invoice document or manually from the New Purchase Invoice Entry.
+
+### Creating a Purchase Invoice Return
+
+1. Open the original Purchase Invoice document.
+2. Click on **Create > Return**.
+   ![Create Purchase Invoice Return](./images/create-purchase-invoice-return.png)
+3. The Party and Item details will be fetched as set in the original Purchase
+   Invoice document. You can set the quantity of Items returned in negative
+   numbers.
+   ![Purchase Invoice Return Form](./images/purchase-invoice-return-form.png)
+4. Save and Submit.
+
+::: info
+The Item quantity and Payment amount will be in negative figures since it's
+a return.
+:::
+
+### Creating Manually
+
+1. Navigate to the Purchase Invoice page `Purchases > Purchase Invoice`
+2. Check **is Return** to mark the Purchase Invoice as Return. If you want to
+   reference an original Purchase Invoice, click on **Return Against** then
+   select the target Purchase Invoice.
+   ![Set Is Return](./images/purchase-invoice-set-is-return.png)
+3. Fill Item details.
+4. Save and Submit.
+
+## How does Purchase Invoice Return affect General Ledger
+
+The Purchase Invoice Return will reverse the impact of the original Purchase Invoice
+in the General Ledger.
+![Purchase Invoice Return in General Ledger](./images/purchase-invoice-return-in-general-ledger.png)
