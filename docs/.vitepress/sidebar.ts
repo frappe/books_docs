@@ -82,6 +82,12 @@ export default function sidebar() {
       ],
     },
     {
+      text: 'Point of Sale',
+      collapsible: true,
+      collapsed: true,
+      items: [{ text: 'Introduction', link: '/point-of-sale/introduction' }],
+    },
+    {
       text: 'Miscellaneous',
       collapsible: true,
       collapsed: true,
