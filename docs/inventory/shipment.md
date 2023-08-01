@@ -54,7 +54,7 @@ make the Shipment entry.
 A Shipment can have one of four Status:
 
 | Status        | Description                                  |
-|---------------|----------------------------------------------|
+| ------------- | -------------------------------------------- |
 | Submitted     | Shipment Entry is Submitted                  |
 | Return        | Shipment Return is Submitted                 |
 | Return Issued | Shipment has Return Entry created against it |
@@ -63,15 +63,15 @@ A Shipment can have one of four Status:
 ## Shipment Return
 
 The customer could return an already sold Item due to quality issues, non-delivery
-on the agreed date, or any other reason. 
+on the agreed date, or any other reason.
 
 The user can create a Shipment Return directly from the original Shipment document
 or manually from the New Shipment Entry.
 
 The Stock Returns feature needs to be enabled first by checking the **Enable Stock
-Returns** option in the General Settings.
+Returns** option in the [Inventory Settings](/inventory/settings.html#inventory-settings).
 
-To navigate: `Setup > Settings > General Tab`
+To navigate: `Setup > Settings > Inventory Tab`
 
 ![Enable Stock Returns](./images/enable-stock-returns.png)
 
@@ -88,15 +88,6 @@ To navigate: `Setup > Settings > General Tab`
 ::: info
 The Item quantity and Payment amount will be in negative figures since it's a return.
 :::
-
-### Creating Manually
-
-1. Navigate to the Shipment page `Inventory > Shipment`
-2. Check **is Return** to mark the Shipment as Return. If you want to reference 
-   an original Shipment, click on **Return Against** then select the target Shipment.
-   ![Check Is Return](./images/shipment-set-is-return.png)
-3. Fill Item details.
-4. Save and Submit.
 
 ## How does Shipment Return affect General Ledger
 
