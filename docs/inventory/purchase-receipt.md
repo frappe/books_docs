@@ -53,7 +53,7 @@ make the Purchase Receipt entry.
 A Purchase Receipt can have one of four Status:
 
 | Status        | Description                                          |
-|---------------|------------------------------------------------------|
+| ------------- | ---------------------------------------------------- |
 | Submitted     | Purchase Receipt Entry is Submitted                  |
 | Return        | Purchase Receipt Return Entry is Submitted           |
 | Return Issued | Purchase Receipt has Return Entry created against it |
@@ -84,16 +84,6 @@ To navigate: `Setup > Settings > General Tab`
 ::: info
 The Item quantity and Payment amount will be in negative figures since it's a return.
 :::
-
-### Creating Manually
-
-1. Navigate to the Purchase Receipt page `Inventory > Purchase Receipt`
-2. Check **is Return** to mark the Purchase Receipt as Return. If you want to reference 
-   an original Purchase Receipt, click on **Return Against** then select the target 
-   Purchase Receipt.
-   ![Check Is Return](./images/purchase-receipt-set-is-return.png)
-3. Fill Item details.
-4. Save and Submit.
 
 ## How does Purchase Receipt Return affect General Ledger
 
