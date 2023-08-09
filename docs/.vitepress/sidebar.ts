@@ -91,6 +91,7 @@ export default function sidebar() {
         { text: 'Import Wizard', link: '/miscellaneous/import-wizard' },
         { text: 'Print Templates', link: '/miscellaneous/print-templates' },
         { text: 'Chart of Accounts', link: '/miscellaneous/chart-of-accounts' },
+        { text: 'Customize Form', link: '/miscellaneous/customize-form' },
         { text: 'Settings', link: '/miscellaneous/settings' },
       ],
     },
