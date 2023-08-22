@@ -65,3 +65,8 @@ Serial Number entry type which can be navigated to by using the Quick Search.
 Checking this will allow setting multiple UOMs for an Items. Then when making a
 entry that involves the Item, one of the other UOMs can be selected to mention
 its quantity.
+
+### Enable Stock Returns
+
+Checking this will allow you to create Purchase Receipt and Shipment Returns against
+the original Purchase Receipts or Shipments.
