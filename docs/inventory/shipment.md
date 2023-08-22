@@ -51,47 +51,47 @@ out for you. Else you will have to enter the Shipment details.
 Once the Shipment details have been entered, click on Save and then Submit to
 make the Shipment entry.
 
-A Shipment can have one of four Status:
+A Shipment can have one of the four following statuses:
 
-| Status        | Description                                  |
-| ------------- | -------------------------------------------- |
-| Submitted     | Shipment Entry is Submitted                  |
-| Return        | Shipment Return is Submitted                 |
-| Return Issued | Shipment has Return Entry created against it |
-| Cancelled     | Shipment Entry is cancelled                  |
+| Status        | Description                           |
+| ------------- | ------------------------------------- |
+| Submitted     | Shipment entry submitted              |
+| Return        | Shipment Return submitted             |
+| Return Issued | Return entry created against Shipment |
+| Cancelled     | Shipment entry cancelled              |
 
 ## Shipment Return
 
-The customer could return an already sold Item due to quality issues, non-delivery
-on the agreed date, or any other reason.
+The customer can return an already shipped Item due to quality issues,
+delay in delivery, or some other issue.
 
-The user can create a Shipment Return directly from the original Shipment document
-or manually from the New Shipment Entry.
+To reflect this you can create a Shipment Return from the original Shipment
+entry or manually create one from a new Shipment Entry.
 
-The Stock Returns feature needs to be enabled first by checking the **Enable Stock
-Returns** option in the [Inventory Settings](/inventory/settings.html#inventory-settings).
+### Enable Stock Returns
 
-To navigate: `Setup > Settings > Inventory Tab`
-
-![Enable Stock Returns](./images/enable-stock-returns.png)
+To create Shipment Returns the Stock Returns feature needs to be enabled. To do
+this, check the **Enable Stock Returns** option in
+[Inventory Settings](/inventory/settings.html#inventory-settings) under the Features section.
 
 ### Creating a Shipment Return
 
-1. Open the original Shipment document, against which customer returned the Items.
-2. Click on **Create > Return**.
+1. Open the Shipment entry to be returned.
+2. Click on `Create > Return`.
    ![Create Shipment Return](./images/create-shipment-return.png)
-3. The Party and Item details will be fetched as set in the original Shipment document.
-   You can set the quantity of Items returned in negative numbers.
+3. The Party and Item details will be fetched from the original Shipment entry.
+   You can set the quantity of Items returned.
    ![Shipment Return Form](./images/shipment-return-form.png)
 4. Save and Submit.
 
 ::: info
-The Item quantity and Payment amount will be in negative figures since it's a return.
+Item quantity and Payment amount will be in negative to indicate that it is a return.
 :::
 
-## How does Shipment Return affect General Ledger
+##  Shipment Return impact on General Ledger
 
-The Shipment Return will reverse the impact of the original Shipment in the General Ledger.
+The Shipment Return entry will create General Ledger entries to reverse the impact of the original Shipment.
+
 ![Shipment Return in General Ledger](./images/shipment-return-in-general-ledger.png)
 
 ## View Ledger Entries
