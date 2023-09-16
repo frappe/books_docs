@@ -124,7 +124,7 @@ The words Credit and Debit mean different things when applied to different
 accounts.
 
 - For **Assets** and **Expense** accounts Credit implies a decrease in balance and Debit
-  implies and increase in balance.
+  implies an increase in balance.
 
 - For **Liabilities** and **Income** accounts Credit implies an increase in balance and Debit
   implies and decrease in balance.
