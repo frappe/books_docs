@@ -94,6 +94,47 @@ Invoice entry.
 ![Disable Auto Payment](./images/auto-payment.png)
 :::
 
+## Sales Invoice Return
+
+The customer could return an already sold Item due to quality issues or any
+other reasons.
+
+To reflect this you can create a Sales Invoice Return from the original Sales
+Invoice entry or manually create one from a new Sales Invoice Entry.
+
+### Creating a Sales Invoice Return
+
+1. Open the original Sales Invoice document, against which customer returned
+   the Items.
+2. Click on **Create > Return**.
+   ![Create Sales Invoice Return](./images/sinv-create-return.png)
+3. The Party and Item details will be fetched as set in the original Sales
+   Invoice document. You can set the quantity of Items returned in negative
+   numbers.
+   ![Sales Invoice Return Form](./images/sinv-return-form.png)
+4. Save and Submit.
+
+::: info
+The Item quantity and Payment amount will be in negative figures to indicate
+that it's a return.
+:::
+
+### Creating Manually
+
+1. Navigate to the Sales Invoice page `Sales > Sales Invoice`
+2. Click on **Return Against** then select the target Sales Invoice against
+   which customer returned the Items.
+   ![Select return invoice](./images/sinv-select-return-against.png)
+3. Fill Item details.
+4. Save and Submit.
+
+## Sales Invoice Return impact on General Ledger
+
+The Sales Invoice Return entry will create General Ledger entries to reverse
+the impact of the original Sales Invoice.
+
+![Sales Invoice Return in General Ledger](./images/sinv-return-in-gl.png)
+
 ## Printing the Sales Invoice
 
 To export the Sales Invoice as a PDF, click on the Print button next to the
