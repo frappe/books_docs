@@ -92,7 +92,7 @@ features:
   max-width: initial !important;
 }
 
-p > img {
+p > img, li > img {
   width: 100%;
   border: solid 1px var(--vp-c-divider-light);
   border-radius: 8px;
