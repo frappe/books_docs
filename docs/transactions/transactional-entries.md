@@ -27,7 +27,7 @@ Check the sections below on more details about these states.
 
 ## Creating an Entry
 
-To create and entry first navigate to the page, then click the blue `+` button.
+To create an entry, first navigate to the page, then click the blue `+` button.
 
 ::: info Transaction Form
 Other than Payments all other transactional entries are displayed in full page forms.
