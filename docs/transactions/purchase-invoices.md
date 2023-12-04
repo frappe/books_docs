@@ -115,4 +115,5 @@ that it's a return.
 
 The Purchase Invoice Return entry will create General Ledger entries to reverse
 the impact of the original Purchase Invoice.
+
 ![Purchase Invoice Return in General Ledger](./images/pinv-return-in-gl.png)
