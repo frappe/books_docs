@@ -37,12 +37,12 @@ against it to denote that you’ve paid the money.
 To make a Payment first navigate to the Purchase Invoice, then click on the
 `...` menu button. Then click the Make Payment option.
 
-![Sales Invoice Status](./images/purchase-payment.png)
+![Purchase Invoice Status](./images/purchase-payment.png)
 
 This will open the Payment quick edit form with the outstanding amount
 auto-filled.
 
-![Sales Invoice Payment](./images/purchase-payment-quickedit.png)
+![Purchase Invoice Payment](./images/purchase-payment-quickedit.png)
 
 You can change the values and click on Save. This will Save and Submit the
 Payment.
@@ -63,7 +63,7 @@ Once the Outstanding Amount reaches 0, the status will change to **Paid**.
 ### Auto Payments
 
 You can simplify the _Purchase Invoice → Payment_ workflow by using Auto
-Payments. For this you just need to set the default accounts for Sales Payment.
+Payments. For this you just need to set the default accounts for Purchase Payment.
 
 This can be done in `Setup > Settings > Defaults > Auto Payments`:
 ![Payment Accounts](./images/payment-accounts.png)
@@ -79,3 +79,41 @@ Invoice entry.
 
 ![Disable Auto Payment](./images/auto-payment.png)
 :::
+
+
+## Purchase Invoice Return
+
+The user can create a Purchase Invoice Return directly from the original Purchase
+Invoice document or manually from the New Purchase Invoice Entry.
+
+### Creating a Purchase Invoice Return
+
+1. Open the original Purchase Invoice document.
+2. Click on **Create > Return**.
+   ![Create Purchase Invoice Return](./images/pinv-create-return.png)
+3. The Party and Item details will be fetched as set in the original Purchase
+   Invoice document. You can set the quantity of Items returned in negative
+   numbers.
+   ![Purchase Invoice Return Form](./images/pinv-return-form.png)
+4. Save and Submit.
+
+::: info
+The Item quantity and Payment amount will be in negative figures to indicate
+that it's a return.
+:::
+
+### Creating Manually
+
+1. Navigate to the Purchase Invoice page `Purchases > Purchase Invoice`
+2. Click on **Return Against** then select the target Purchase Invoice against
+   which you returned the Items.
+   ![Set Is Return](./images/pinv-select-return-against-invoice.png)
+3. Fill Item details.
+4. Save and Submit.
+
+## Purchase Invoice impact on General Ledger
+
+The Purchase Invoice Return entry will create General Ledger entries to reverse
+the impact of the original Purchase Invoice.
+
+![Purchase Invoice Return in General Ledger](./images/pinv-return-in-gl.png)
