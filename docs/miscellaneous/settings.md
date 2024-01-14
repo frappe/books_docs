@@ -62,6 +62,9 @@ The following Defaults can be set:
 3. [Number Series](/miscellaneous/number-series) for transactional entries.
 4. Terms to be used for certain transactional entries.
 5. [Print Templates](/miscellaneous/print-templates) to be used when printing an entry.
+6. [Point of Sale](/point-of-sale/introduction) 
+   1. POS Customer: used as Default Customer for POS Transactions.
+   2. Cash Denominations: to be used when creating and closing a POS Shift.
 
 :::warning Auto Stock Transfer items
 
@@ -101,3 +104,11 @@ displayed.
 ::: info Get Started
 Get Started is auto hidden on completion.
 :::
+
+## POS Settings
+![image](./images/pos-settings.png)
+
+1. Inventory: The Inventory for Point of Sale Transactions.
+2. Counter Cash Account: The Account for Point of Sale transactions.
+3. Write off Account: The Account which will be used to create Write off entries when closing
+   a POS Shift.
