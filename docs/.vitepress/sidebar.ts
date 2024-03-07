@@ -50,6 +50,7 @@ export default function sidebar() {
         { text: 'Party', link: '/entries/party' },
         { text: 'Taxes', link: '/entries/taxes' },
         { text: 'Price List', link: '/entries/price-list' },
+        { text: 'Pricing Rule', link: '/entries/pricing-rule' },
       ],
     },
     {
