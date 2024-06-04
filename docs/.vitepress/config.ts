@@ -5,6 +5,7 @@ const tagline = 'Free, Modern Desktop Accounting';
 
 export default defineConfig({
   lang: 'en-US',
+  base: '/books/',
   title: 'Frappe Books',
   description: tagline,
   titleTemplate: tagline,
@@ -12,10 +13,10 @@ export default defineConfig({
   outDir: '../dist',
   lastUpdated: true,
 
-  head: [['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', type: 'image/x-icon', href: '/books/favicon.ico' }]],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/books/logo.svg',
     siteTitle: false,
     nav: nav(),
     sidebar: sidebar(),

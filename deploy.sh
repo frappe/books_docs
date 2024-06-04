@@ -6,7 +6,7 @@ set -e
 yarn build
 
 cd dist
-echo 'docs.frappebooks.com' > CNAME
+echo 'docs.frappe.io' > CNAME
 
 git init
 git add -A
