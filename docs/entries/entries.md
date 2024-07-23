@@ -8,6 +8,7 @@ Examples of these are:
 
 - [Items](/entries/items)
 - [Party](/entries/party)
+- [Lead](/entries/lead)
 - [Taxes](/entries/taxes)
 
 ## Creating a New Entry
