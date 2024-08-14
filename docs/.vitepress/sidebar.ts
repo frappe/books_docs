@@ -7,6 +7,7 @@ export default function sidebar() {
         { text: 'Introduction', link: '/basics/introduction' },
         { text: 'Accounting Basics', link: '/basics/accounting-basics' },
         { text: 'Interface', link: '/basics/interface' },
+        { text: 'Chart of Accounts', link: '/miscellaneous/chart-of-accounts' },
       ],
     },
     {
@@ -90,7 +91,6 @@ export default function sidebar() {
         { text: 'Number Series', link: '/miscellaneous/number-series' },
         { text: 'Import Wizard', link: '/miscellaneous/import-wizard' },
         { text: 'Print Templates', link: '/miscellaneous/print-templates' },
-        { text: 'Chart of Accounts', link: '/miscellaneous/chart-of-accounts' },
         { text: 'Customize Form', link: '/miscellaneous/customize-form' },
         { text: 'Settings', link: '/miscellaneous/settings' },
       ],
