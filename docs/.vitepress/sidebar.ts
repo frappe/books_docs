@@ -65,8 +65,15 @@ export default function sidebar() {
         { text: 'Stock Balance', link: '/inventory/stock-balance' },
         { text: 'Batches', link: '/inventory/batches' },
         { text: 'Serial Number', link: '/inventory/serial-number' },
+        { text: 'Point of Sale', link: '/inventory/point-of-sale' },
         { text: 'Settings', link: '/inventory/settings' },
       ],
+    },
+    {
+      text: 'Point of Sale',
+      collapsible: true,
+      items: [
+        { text: 'Introduction', link: '/point-of-sale/introduction' }],
     },
     {
       text: 'Analytics',
