@@ -32,6 +32,7 @@ export default function sidebar() {
           text: 'Discount Accounting',
           link: '/transactions/discount-accounting',
         },
+        { text: 'Loyalty Program', link: '/transactions/loyalty-program' },
         {
           text: 'Multi Currency Invoicing',
           link: '/transactions/multi-currency-invoicing',
@@ -48,6 +49,7 @@ export default function sidebar() {
         { text: 'Entries', link: '/entries/entries' },
         { text: 'Items', link: '/entries/items' },
         { text: 'Party', link: '/entries/party' },
+        { text: 'Lead', link: '/entries/lead' },
         { text: 'Taxes', link: '/entries/taxes' },
         { text: 'Price List', link: '/entries/price-list' },
       ],
