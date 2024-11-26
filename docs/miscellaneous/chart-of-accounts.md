@@ -55,3 +55,41 @@ To create a new account
 
 This will display a new row where you can enter the account name. After you are
 done press Save to create the account.
+
+## Default Chart of Accounts
+
+Here are the basic descriptions for each account in the default chart of accounts:
+
+### Assets
+
+1. **Bank Accounts**: Accounts for tracking the balances of your bank accounts.
+2. **Cash**: Accounts for tracking cash on hand.
+3. **Accounts Receivable**: Accounts for tracking money owed to you by customers.
+4. **Inventory**: Accounts for tracking the value of your inventory.
+5. **Fixed Assets**: Accounts for tracking long-term assets such as property, plant, and equipment.
+
+### Liabilities
+
+1. **Accounts Payable**: Accounts for tracking money you owe to suppliers.
+2. **Credit Card**: Accounts for tracking credit card balances.
+3. **Loans Payable**: Accounts for tracking loans you need to repay.
+4. **Accrued Liabilities**: Accounts for tracking expenses that have been incurred but not yet paid.
+
+### Equity
+
+1. **Owner's Equity**: Accounts for tracking the owner's investment in the business.
+2. **Retained Earnings**: Accounts for tracking the accumulated profits or losses of the business.
+
+### Income
+
+1. **Sales**: Accounts for tracking revenue from sales of goods or services.
+2. **Service Income**: Accounts for tracking revenue from services provided.
+3. **Interest Income**: Accounts for tracking interest earned on investments.
+
+### Expenses
+
+1. **Cost of Goods Sold**: Accounts for tracking the direct costs of producing goods sold.
+2. **Rent Expense**: Accounts for tracking rent payments.
+3. **Utilities Expense**: Accounts for tracking utility payments.
+4. **Salaries Expense**: Accounts for tracking employee salaries.
+5. **Advertising Expense**: Accounts for tracking advertising costs.
